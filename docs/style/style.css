@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8fafc;
+}
+
+.bg-zinc-900{
+    background-color: #09090b;
+}
+
+.bg-zinc-400{
+    background-color: #d4d4d8;
+}
+
+.bg-slate{
+    background-color: #334155;
+}
+.bg-slate:hover{
+    background-color: #475569;
+}
+
+.navegacao{
+    cursor: pointer;
+
+}
+.navegacao{
+    cursor: pointer;
+}
+
+.item-navbar {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.item-navbar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #b91c1c;
+    transition: width 0.3s ease;
+}
+
+.item-navbar:hover::before {
+    width: 100%;
+}
